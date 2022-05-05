@@ -1,0 +1,194 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: rgb(243, 245, 252);
+	font-family: 'Tajawal', sans-serif;
+}
+
+.titulo{
+	padding-top: 15px;
+	font-size: 50px;
+	font-weight: bold;
+	color:rgb(10, 56, 113) ;
+}
+
+.container{
+	margin: auto;
+	width: 960px;
+	height: 625px;
+	padding: 5px;
+}
+
+.logo{
+	width: 100%;
+	float: left;
+}
+
+.left{
+	float: left;
+	width: 70%;
+	height: 70%;
+	border-radius: 20px;
+	
+}
+
+.right{
+	float: right;
+	border-radius: 20px;
+	width: 30%;
+	background: rgb(250, 250, 250);
+	box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+}
+
+.left-button{
+	float: left;
+	width: 70%;
+	height: auto;
+	border-radius: 20px;
+
+}
+
+.logo-img{
+	margin-top:1%;
+	margin-left: 5%;
+	float: inherit;
+}
+
+.titulo{
+	float: inherit;
+	margin-left: 20%;
+}
+
+.text-input{
+	float: left;
+	margin-left: 10%;
+	margin-bottom: 25%;
+	margin-top: 3%;
+	width: 85%;
+	height: 90%;
+	color: rgb(10, 56, 113);
+	font-size: 20px;
+	border: none;
+	background: none;
+	outline: none;
+	font-family: 'Tajawal', sans-serif;
+}
+
+.text-right{
+	margin-left: 15%;
+	margin-right: 5%;
+}
+
+.munheco{
+	margin-top: 40%;
+	margin-bottom: 10%;
+	width: 90%;
+	height: auto;
+	margin-left: 3%;
+}
+
+.text2-right{
+	float: left;
+	margin-left: 12%;
+	margin-top: 5%;
+	margin-bottom: 10%;
+	background: none;
+	width: 80%;
+	height: 100px;
+	border: none;
+	outline: none;
+	font-size: 15px;
+	font-family: 'Tajawal', sans-serif;
+}
+
+#boton-encriptar{
+	border: solid;
+	padding: 24px;
+	width: 30%;
+	height: 60%;
+	border-radius: 20px;
+	margin-left: 15%;
+	background: rgb(10, 56, 113);
+	color: rgb(250,250,250);
+	border-color: rgb(20, 66, 123);
+}
+
+#boton-encriptar:hover{
+	border-color: rgb(40, 86, 143);
+	background: rgb(20, 66, 123);
+}
+
+#boton-encriptar:active{
+	border-color: rgb(40, 86, 143);
+	background: rgb(30, 76, 133);
+}
+
+#boton-desencriptar{
+	border: solid;
+	padding: 24px;
+	width: 30%;
+	height: 60%;
+	border-radius: 20px;
+	margin-left: 5%;
+	color: rgb(10, 56, 113);
+	border-color: rgb(10, 56, 113);
+}
+
+#boton-desencriptar:hover{
+	border-color: rgb(40, 86, 143);
+	background: rgb(230, 230, 230);
+}
+
+#boton-desencriptar:active{
+	background: rgb(220, 220, 220);
+}
+
+#copiar{
+	border: solid;
+	margin-left: 33%;
+	margin-top: 90%;
+	margin-bottom: 10%;
+	padding: 24px;
+	width: 40%;
+	height: 10%;
+	background: rgb(250, 250, 250);
+	border-radius: 20px;
+	display: none;
+	border-color: rgb(200, 200, 200);
+}
+
+#copiar:hover{
+	border-color: rgb(230, 230, 230);
+}
+
+#copiar:active{
+	border-color: rgb(10, 56, 113);
+}
+
+.aviso{
+margin-left: 35%;
+margin-bottom: 2%;
+}
+
+footer{
+	float: right;
+	margin-left:3%;
+	font-size: 25px;
+}
+footer li{
+	display: inline-block;
+	margin: 0 15px 0 -15px;
+}
+
+.red-social{
+	height: 30px;
+	padding:0 5px;
+}
+
+.red-social:hover{
+	height:33px ;
+}
+
+::placeholder{
+	font-family: 'Tajawal', sans-serif;
+}
