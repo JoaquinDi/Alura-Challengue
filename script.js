@@ -11,8 +11,6 @@ function encriptar() {
 	document.getElementById("text2-right").innerHTML = textoCifrado;
 	document.getElementById("copiar").style.display = "show";
 	document.getElementById("copiar").style.display = "inherit";
-
-	console.log(textoCifrado)
 }
 
 function desencriptar() {
@@ -28,13 +26,11 @@ function desencriptar() {
 	document.getElementById("text2-right").innerHTML = textoCifrado;
 	document.getElementById("copiar").style.display = "show";
 	document.getElementById("copiar").style.display = "inherit";
-
-	console.log(textoCifrado)
 }
 
 function copy(){
 	var contenido = document.querySelector("#text2-right");
 	contenido.select();
 	document.execCommand("copy");
-	alert("se copio")
+	alert("¡se copio!")
 }
