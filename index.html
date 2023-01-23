@@ -1,67 +1,67 @@
 <!DOCTYPE html>
 <html>
-<head>
 
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap" rel="stylesheet">
+<head>
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap" rel="stylesheet" />
 
 	<script src="script.js"></script>
-	
-	<link rel="stylesheet" type="text/css" href="reset.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<title>Challenge N°1</title>
 
+	<link rel="stylesheet" type="text/css" href="reset.css" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<title>Encriptador</title>
 </head>
 
-
 <body>
-
-	<div class="logo">
-		<a class="logo-img" href="https://www.aluracursos.com/"><img  src="imagenes/Vector.png"></a>
+	<header class="header">
+		<a href="https://www.aluracursos.com/"><img class="logo" src="imagenes/Vector.png" /></a>
 		<h1 class="titulo">Encriptador</h1>
-	</div>
+		<a href=""><img class="logo_joa" src="imagenes/JOA.png" /></a>
+	</header>
 
 	<div class="container">
-		
-
-		<div class="left">
-			<textarea type="text" class="text-input" placeholder="ingerse el texto aquí" id="inputText"></textarea>
+		<div class="left_container">
+			<div class="left">
+				<textarea type="text" class="text-input" placeholder="ingerse el texto aquí" id="inputText"></textarea>
+			</div>
+			<div class="left-button">
+				<p class="aviso">Solo letras minúsculas y sin acentos</p>
+				<div class="button_container">
+					<button class="boton-encriptar" id="boton-encriptar" onclick="encriptar()">encriptar</button>
+					<button class="boton-desencriptar" id="boton-desencriptar" onclick="desencriptar()">desencriptar</button>
+				</div>
+			</div>
 		</div>
 
 		<div class="right">
-			<img src="imagenes/Munheco.png" class="munheco" id="munheco">
+			<img src="imagenes/Munheco.png" class="munheco" id="munheco" />
 			<h1 class="text-right" id="text-right">Ningún mensaje fue encontrado</h1>
 			<textarea class="text2-right" id="text2-right" placeholder="Ingresa el texto que desees encriptar o desencriptar."></textarea>
-			<button id="copiar" onclick="copy()">copiar</button>
+			<button class="copiar" id="copiar" onclick="copy()">copiar</button>
 		</div>
-
-		<div class="left-button">
-			<p class="aviso">Solo letras minúsculas y sin acentos</p>
-			<button id="boton-encriptar" onclick="encriptar()">encriptar</button>
-			<button id="boton-desencriptar" onclick="desencriptar()">desencriptar</button>
-		</div>
-
 	</div>
-	
-		<footer>
-			<ul>
-				<li>
-			<a href="https://www.instagram.com/rulydionisio/?hl=es"><img src="png/instagram.png" class="red-social"></a>
-				</li>
-				<li>
-			<a href="https://m.facebook.com/joaquinrulos.dionidio"><img src="png/facebook.png" class="red-social"></a>
-				</li>
-				<li>
-			<a href="https://www.linkedin.com/in/joaquin-dionisio-ba1a39234/"><img src="png/linkedin.png" class="red-social"></a>
-				</li>
-			</ul>
 
-		</footer>
-
+	<footer class="footer">
+		<ul class="footer_container">
+			<li class="container_li">
+				<a class="a_red" href="https://www.instagram.com/rulydionisio/?hl=es"><img src="png/instagram.png"
+						class="red-social" /></a>
+			</li>
+			<li class="container_li">
+				<a class="a_red" href="https://m.facebook.com/joaquinrulos.dionidio"><img src="png/facebook.png"
+						class="red-social" /></a>
+			</li>
+			<li class="container_li">
+				<a class="a_red" href="https://www.linkedin.com/in/joaquin-dionisio-ba1a39234/"><img
+						src="png/linkedin.png" class="red-social" /></a>
+			</li>
+		</ul>
+	</footer>
 </body>
+
 </html>
